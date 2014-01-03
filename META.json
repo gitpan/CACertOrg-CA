@@ -19,26 +19,12 @@
          "inc"
       ]
    },
-   "prereqs" : {
-      "build" : {
-         "requires" : {
-            "ExtUtils::MakeMaker" : 0
-         }
-      },
-      "configure" : {
-         "requires" : {
-            "ExtUtils::MakeMaker" : 0
-         }
-      },
-      "runtime" : {
-         "requires" : {}
-      }
-   },
    "release_status" : "stable",
    "resources" : {
       "repository" : {
-         "url" : "http://github.com/briandfoy/cacertorg-ca"
+         "type" : "git",
+         "web" : "https://github.com/briandfoy/cacertorg-ca"
       }
    },
-   "version" : "20110724.002"
+   "version" : "20110724.004"
 }
